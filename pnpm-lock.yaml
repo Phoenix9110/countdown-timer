@@ -8,6 +8,9 @@ dependencies:
   '@astrojs/check':
     specifier: ^0.5.10
     version: 0.5.10(typescript@5.4.3)
+  '@fontsource-variable/red-hat-text':
+    specifier: ^5.0.18
+    version: 5.0.18
   astro:
     specifier: ^4.5.12
     version: 4.5.12(typescript@5.4.3)
@@ -786,6 +789,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource-variable/red-hat-text@5.0.18:
+    resolution: {integrity: sha512-7Bm9/Cv4kVqrDRD+xKSG22g66u2XQ3WTa4UuOJvvTgLHvpwHS6cJbJ6BvIFUez4vSi/D0WgCmJoiSzm01ZjxVA==}
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.5:
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}

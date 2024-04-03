@@ -1,0 +1,21 @@
+---
+interface Props {
+	title: string;
+}
+
+const {  title } = Astro.props;
+---
+<picture class=`icon_${title} icon` >
+  <slot/>
+</picture>
+
+
+<style is:global>
+  .icon:hover{
+    cursor: pointer;
+  }
+
+  .icon:hover path{
+    fill: hsl(345, 95%, 68%);
+  }
+</style>
