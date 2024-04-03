@@ -34,7 +34,6 @@ const {  title } = Astro.props;
     width: 100%;
     position: relative;
     top: -50%;
-	
 	}
 
 	.left-semicicle{
@@ -92,4 +91,31 @@ const {  title } = Astro.props;
     color: hsl(237, 18%, 59%);
     font-size: small;
 	}
+
+	@media (max-width: 600px) {
+		.card {
+			height: 60px;
+			box-shadow: 0px 15px 4px 0px #0b0b0b;
+		}
+		.card::after{
+			top: -52%;
+		}
+		.card__value {
+			line-height: 1.4;
+			margin: 13px;
+			font-size: 25px;
+		}
+		.left-semicicle{
+			top: 41px;
+		}
+		.right-semicicle{
+			top: -31px;
+		}
+		.card__label{
+			font-size: xx-small;
+
+		}
+
+	}
 </style>
+
